@@ -1,0 +1,14 @@
+<?php 
+$host = 'localhost';
+$db_username = 'root';
+$db_password = 'mickush02';
+$db_name='elections';
+
+$connect = mysqli_connect($host,$db_username,$db_password,$db_name);
+
+if(!$connect){
+    echo('Database Not Connected');
+}
+// echo("connected");
+
+?>
